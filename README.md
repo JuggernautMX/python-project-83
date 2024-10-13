@@ -2,7 +2,6 @@
 [![Actions Status](https://github.com/JuggernautMX/python-project-83/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/JuggernautMX/python-project-83/actions)
 [![Project Check](https://github.com/JuggernautMX/python-project-83/actions/workflows/project-check.yml/badge.svg)](https://github.com/JuggernautMX/python-project-83/actions/workflows/project-check.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/91917d2b5315c84dbe1c/maintainability)](https://codeclimate.com/github/JuggernautMX/python-project-83/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/91917d2b5315c84dbe1c/test_coverage)](https://codeclimate.com/github/JuggernautMX/python-project-83/test_coverage)
 
 Page Analyzer is a site that analyses specified pages for SEO-suitability.
 It's [Online on render.com](https://python-project-83-qq6j.onrender.com).
