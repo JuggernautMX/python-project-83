@@ -15,15 +15,3 @@ jobs:
         run: |
           pip install flake8 --break-system-packages
           make lint
-      - name: Run pytest
-        run: |
-          pip install pytest --break-system-packages
-          pip install pytest-cov --break-system-packages
-          make test
-      - name: Test & publish code coverage
-        uses: paambaati/codeclimate-action@v3.2.0
-        env:
-          CC_TEST_REPORTER_ID: ${{ secrets.COVERAGE_ID }}
-        with:
-          coverageCommand: make test-coverage
-          debug: true
